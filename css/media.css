@@ -1,0 +1,212 @@
+@media only screen and (max-width:575px) {
+    .bar{
+        display: inherit;
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .container_one {
+        width: 90%;
+    }
+    .container_two {
+        width: 85%;
+    }
+    .nav_menu{
+        display: none;
+    }
+    .banner_content h1, .feature_info h2, .exp_title h2, .facts_titles h2, .listing_title h2, .sponsore_title h2 {
+        font-size: 38px;
+    }
+    .banner_flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner_img img {
+        width: 100%;
+    }
+    .banner_img {
+        margin-top: 75px;
+    }
+    .banner_content {
+        margin: 45px 0;
+    }
+    .feature_parent {
+        flex-direction: column-reverse;
+    }
+    .gallary {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .feature_info {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .gallary img {
+        width: 100%;
+    }
+    .exp_parent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .exp_left {
+        width: 100%;
+    }
+    .exp_right img {
+        width: 100%;
+    }
+    .exp_card {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 30%);
+    }
+    .facts_titles {
+        margin: 80px 0;
+        text-align: center;
+    }
+    .achive_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-1 {
+        margin-bottom: 40px;
+    }
+    .list_card_parent {
+        flex-direction: column;
+    }
+    .card_bottom {
+        padding: 40px 15px;
+    }
+    .sponsors_gallary {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .foot_parent {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+    .social_net {
+        width: 100%;
+        margin: 50px 0;
+    }
+    .social_net ul li {
+        margin-right: 0;
+    }
+    .social_net ul {
+        justify-content: space-evenly;
+    }
+   
+
+
+
+
+}
+
+@media only screen and (min-width:576px) and (max-width:992px) {
+    .bar{
+        display: inherit;
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .container_one {
+        width: 90%;
+    }
+    .container_two {
+        width: 85%;
+    }
+    .nav_menu{
+        display: none;
+    }
+    .banner_content h1, .feature_info h2, .exp_title h2, .facts_titles h2, .listing_title h2, .sponsore_title h2 {
+        font-size: 38px;
+    }
+    .banner_flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner_img img {
+        width: 100%;
+    }
+    .banner_img {
+        margin-top: 75px;
+    }
+    .banner_content {
+        margin: 45px 0;
+    }
+    .feature_parent {
+        flex-direction: column-reverse;
+    }
+    .gallary {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .feature_info {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .gallary img {
+        width: 100%;
+    }
+    .exp_parent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .exp_left {
+        width: 100%;
+    }
+    .exp_right img {
+        width: 100%;
+    }
+    .exp_card {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 30%);
+    }
+    .facts_titles {
+        margin: 80px 0;
+        text-align: center;
+    }
+    .achive_cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
+    .card-1 {
+        margin-bottom: 40px;
+    }
+    .list_card_parent {
+        flex-direction: column;
+    }
+    .card_bottom {
+        padding: 40px 15px;
+    }
+    .sponsors_gallary {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .foot_parent {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+    .social_net {
+        width: 100%;
+        margin: 50px 0;
+    }
+    .social_net ul li {
+        margin-right: 0;
+    }
+    .social_net ul {
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:992px){
+    
+}
