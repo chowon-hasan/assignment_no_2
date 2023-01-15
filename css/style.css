@@ -101,7 +101,7 @@ margin: 75px 0;
 }
 .banner_content h1{
 
-font-size: 64px;
+font-size: 48px;
 
 text-transform: capitalize;
 
@@ -270,7 +270,7 @@ position: absolute;
 
 text-align: center;
 
-bottom: 0%;
+bottom: -3%;
 
 left: 3%;
 }

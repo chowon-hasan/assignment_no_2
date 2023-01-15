@@ -207,6 +207,19 @@
     }
 }
 
-@media only screen and (min-width:576px) and (max-width:992px){
-    
+@media only screen and (min-width:1024px) and (max-width:1440px){
+    .banner_content h1{
+        font-size: 48px;
+    }
+    .exp_card {
+        bottom: 18%;
+    }
+    .card_icons {
+        margin: 30px 10px 20px 0;
+    }
+    .container_one, .container_two {
+        width: 85%;
+    }
+    .container_two
+
 }
