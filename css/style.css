@@ -5,6 +5,19 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+.primary_btn:hover{
+    background-color: #fff;
+    border: 1px solid #7D0C28;
+    color: #7D0C28;
+}
+.exp_box:hover{
+    box-shadow: -1px 0px 5px 1px #7D0C28;
+}
+.card-1:hover{
+    background-color: #292929;
+}.card-1:hover h2, p{
+    color: #fff;
+}
 .bar{
     display: none;
 }
@@ -105,6 +118,7 @@ font-weight: 500;
 text-transform: capitalize;
 
 border: 1px solid #fff;
+transition: .4s all;
 }
 .banner_img{
 
@@ -207,6 +221,7 @@ padding: 20px;
 border-radius: 5px;
 
 box-shadow: -1px 0px 5px 1px #cfcfcf;
+transition: .4s all;
 }
 .exp_box h4{
 
@@ -297,8 +312,7 @@ text-align: center;
 }
 .card-1{
 
-border: 1px solid #000;
-
+box-shadow: -1px 0px 5px 1px #a8a8a8d5;
 width: 210px;
 
 height: 180px;
@@ -312,6 +326,7 @@ justify-content: center;
 align-items: center;
 
 border-radius: 5px;
+transition: .4s all;
 }
 .card-1 img{
 
@@ -381,6 +396,30 @@ gap: 80px;
  position: relative;
  padding: 10px;
  border-radius: 5px 5px 0 0;
+}
+.list_2{
+    background-image: linear-gradient(to top, rgba(29, 29, 29, 0.918), rgba(231, 231, 231, 0)), url(../images/card-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+    align-items: end;
+    display: grid;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+.list_3{
+    background-image: linear-gradient(to top, rgba(29, 29, 29, 0.918), rgba(231, 231, 231, 0)), url(../images/card-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+    align-items: end;
+    display: grid;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
 }
 .feat_span{
 
